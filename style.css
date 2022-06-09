@@ -1,0 +1,136 @@
+body{
+       color: #1c1e21;
+       font-family: inherit;
+        margin: auto;
+        text-align: center; 
+        padding: 80px 0;
+        line-height: 1.34;
+        width: auto;
+        background-color: #f0f2f5;
+        display: block;
+        font-size: 12px;
+        
+    }
+    .container{
+        margin: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%); 
+        padding-bottom: 14px ;  
+        background-color: white;
+        border: 1px solid #dddfe2;
+        zoom: 1;
+        width: 396px;
+    
+    }
+    #loginfb {
+        padding: 24px 0 16px 0;
+    }
+    #loginfb span {
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+    .divinput:after {
+            clear: both;
+            content: '.';
+            display: block;
+            font-size: 0;
+            height: 0;
+            line-height: 0;
+            visibility: hidden;
+            -webkit-appearance: none;
+    }
+
+    .input{
+        margin-bottom: 10px;
+        padding: 14px 16px;
+        font-size: 17px;
+        width: 330px;
+        border-radius: 6px;
+        outline: none;
+        border: 1px solid #dddddd;   
+    }
+    .input::placeholder{
+        color: #bbbbbb;
+    }
+    .input:focus{
+        background-color: #f9f9f9;
+    }
+    ._97vu img {
+        margin: -44px 0 -4px 0;
+    width: 240px;
+    }
+    img {
+        border: 0
+    }
+    .login{
+        background-color: #1877f2;
+        border: none;
+        border-radius: 6px;
+        font-size: 20px;
+        line-height: 48px;
+        width: 370px;
+        color: white;
+        padding: 14px,16px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .login:hover{
+        background-color: #0d499e;
+    }
+    .login span{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .newaccount{
+        background-color: #42b72a;
+        border-radius: 6px;
+        border: none;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 25px;
+        padding: 10px 16px;
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .newaccount:hover{
+        background-color: #367929;
+    }
+    .newaccount span{
+        color: white;
+    }
+    ._97w4 ,.forget{
+        color: #1877f2;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px 0,0, 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 16px ;
+        margin-bottom: 16px;
+    }
+    .divor{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: black;
+    }
+
+    .or{
+        font-weight: 500;
+        font-size: 1.2em;
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    span::after{
+        content: \2013;
+        background:black
+    }
+    a{
+        cursor: pointer;
+        text-decoration: none;
+    }
